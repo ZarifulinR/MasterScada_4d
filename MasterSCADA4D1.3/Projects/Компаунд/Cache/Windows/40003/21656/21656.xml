@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Element xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="21656" ShortName="Турбина" UngroupedName="Аппараты.Турбина" Tag="21656">
+  <ID TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+    <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+  </ID>
+  <UsedSTTypes>
+    <string>LREAL</string>
+    <string>HMI.SolidColorType</string>
+    <string>HMI.GradientColorType</string>
+    <string>HMI.BorderStyleType</string>
+    <string>STRING</string>
+    <string>BOOL</string>
+    <string>DINT</string>
+    <string>HMI.ResourceType</string>
+    <string>HMI.TileType</string>
+    <string>HMI.SaveStateType</string>
+    <string>HMI.HorizontalAlignType</string>
+    <string>HMI.VerticalAlignType</string>
+    <string>HMI.MouseCursorKinds</string>
+    <string>HMI.MatrixColorType</string>
+    <string>HMI.SizeType</string>
+    <string>HMI.ProportionType</string>
+  </UsedSTTypes>
+  <Parameters>
+    <Parameter Name="Ширина" ShortName="21616" Tag="21616" Role="Width" Value="60">
+      <ID TaskNumber="0" ItemID="21616" RawItemID="0" TypeHash="1" Path="" STType="LREAL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Высота" ShortName="21617" Tag="21617" Role="Height" Value="60">
+      <ID TaskNumber="0" ItemID="21617" RawItemID="0" TypeHash="1" Path="" STType="LREAL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Угол поворота" ShortName="21618" Tag="21618" Role="Angle" Value="0">
+      <ID TaskNumber="0" ItemID="21618" RawItemID="0" TypeHash="1" Path="" STType="LREAL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Масштаб X" ShortName="21619" Tag="21619" Role="ScaleX" Value="1">
+      <ID TaskNumber="0" ItemID="21619" RawItemID="0" TypeHash="1" Path="" STType="LREAL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Масштаб Y" ShortName="21620" Tag="21620" Role="ScaleY" Value="1">
+      <ID TaskNumber="0" ItemID="21620" RawItemID="0" TypeHash="1" Path="" STType="LREAL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Толщина рамки" ShortName="21621" Tag="21621" Role="BorderThickness" Value="0">
+      <ID TaskNumber="0" ItemID="21621" RawItemID="0" TypeHash="1" Path="" STType="LREAL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Цвет рамки" ShortName="21622" Tag="21622" Role="BorderColor" Value="rgb(128,128,128)">
+      <ID TaskNumber="0" ItemID="21622" RawItemID="0" TypeHash="4" Path="" STType="HMI.SolidColorType" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Заливка фона" ShortName="21623" Tag="21623" Role="BackgroundColor" Value="TRANSPARENT">
+      <ID TaskNumber="0" ItemID="21623" RawItemID="0" TypeHash="4" Path="" STType="HMI.GradientColorType" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Прозрачность" ShortName="21624" Tag="21624" Role="Opacity" Value="100">
+      <ID TaskNumber="0" ItemID="21624" RawItemID="0" TypeHash="1" Path="" STType="LREAL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Стиль рамки" ShortName="21625" Tag="21625" Role="BorderStyle" Value="0">
+      <ID TaskNumber="0" ItemID="21625" RawItemID="0" TypeHash="5" Path="" STType="HMI.BorderStyleType" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Всплывающая подсказка" ShortName="21626" Tag="21626" Role="ToolTip" Value="">
+      <ID TaskNumber="0" ItemID="21626" RawItemID="0" TypeHash="4" Path="" STType="STRING" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Мигание" ShortName="21627" Tag="21627" Role="Flash" Value="False">
+      <ID TaskNumber="0" ItemID="21627" RawItemID="0" TypeHash="3" Path="" STType="BOOL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Размер тени" ShortName="21628" Tag="21628" Role="ShadowSize" Value="0">
+      <ID TaskNumber="0" ItemID="21628" RawItemID="0" TypeHash="6" Path="" STType="DINT" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Цвет тени" ShortName="21629" Tag="21629" Role="ShadowColor" Value="rgb(240,240,240)">
+      <ID TaskNumber="0" ItemID="21629" RawItemID="0" TypeHash="4" Path="" STType="HMI.SolidColorType" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Изображение фона" ShortName="21630" Tag="21630" Role="Resource" Value="Библиотеки.BaseObjects.Окна.Аппараты.Турбина.Медиа.SVGResource">
+      <ID TaskNumber="0" ItemID="21630" RawItemID="0" TypeHash="4" Path="" STType="HMI.ResourceType" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Замостка фона" ShortName="21631" Tag="21631" Role="BackgroundTile" Value="2">
+      <ID TaskNumber="0" ItemID="21631" RawItemID="0" TypeHash="5" Path="" STType="HMI.TileType" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Параметр" ShortName="21644" Tag="21644" Role="Parametr" Value="0">
+      <ID TaskNumber="0" ItemID="21644" RawItemID="0" TypeHash="5" Path="" STType="HMI.SaveStateType" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>false</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Порядок Z" ShortName="21640" Tag="21640" Role="Z" Value="0">
+      <ID TaskNumber="0" ItemID="21640" RawItemID="0" TypeHash="6" Path="" STType="DINT" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Координата X" ShortName="21632" Tag="21632" Role="X" Value="0">
+      <ID TaskNumber="0" ItemID="21632" RawItemID="0" TypeHash="1" Path="" STType="LREAL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Координата Y" ShortName="21633" Tag="21633" Role="Y" Value="0">
+      <ID TaskNumber="0" ItemID="21633" RawItemID="0" TypeHash="1" Path="" STType="LREAL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Видимость" ShortName="21634" Tag="21634" Role="IsVisible" Value="True">
+      <ID TaskNumber="0" ItemID="21634" RawItemID="0" TypeHash="3" Path="" STType="BOOL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Активность" ShortName="21635" Tag="21635" Role="IsEnabled" Value="True">
+      <ID TaskNumber="0" ItemID="21635" RawItemID="0" TypeHash="3" Path="" STType="BOOL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Клавиатурный индекс" ShortName="21636" Tag="21636" Role="TabIndex" Value="0">
+      <ID TaskNumber="0" ItemID="21636" RawItemID="0" TypeHash="6" Path="" STType="DINT" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Горизонтальное выравнивание" ShortName="21641" Tag="21641" Role="HorizontalAlign" Value="1">
+      <ID TaskNumber="0" ItemID="21641" RawItemID="0" TypeHash="5" Path="" STType="HMI.HorizontalAlignType" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Вертикальное выравнивание" ShortName="21642" Tag="21642" Role="VerticalAlign" Value="1">
+      <ID TaskNumber="0" ItemID="21642" RawItemID="0" TypeHash="5" Path="" STType="HMI.VerticalAlignType" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Скрывать при отсутствии прав на управление" ShortName="21646" Tag="21646" Role="HideIfDenyControl" Value="False">
+      <ID TaskNumber="0" ItemID="21646" RawItemID="0" TypeHash="3" Path="" STType="BOOL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Образ" ShortName="21637" Tag="21637" Role="SkinResource" Value="">
+      <ID TaskNumber="0" ItemID="21637" RawItemID="0" TypeHash="4" Path="" STType="HMI.ResourceType" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Вид курсора" ShortName="21645" Tag="21645" Role="MouseCursorKind" Value="0">
+      <ID TaskNumber="0" ItemID="21645" RawItemID="0" TypeHash="5" Path="" STType="HMI.MouseCursorKinds" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Цвет корпуса" ShortName="21638" Tag="21638" Role="Cvet_korpusa" Value="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 ">
+      <ID TaskNumber="0" ItemID="21638" RawItemID="0" TypeHash="4" Path="" STType="HMI.MatrixColorType" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections>
+        <Connection Tag="0" Direction="Forward">
+          <Parent TaskNumber="0" ItemID="21638" RawItemID="0" TypeHash="4" Path="" STType="HMI.MatrixColorType" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </Parent>
+          <Target TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="4" Path="svg:feColorMatrixBodyFilter:values" STType="STRING" UIDType="SVG" />
+          <UpdateType>true</UpdateType>
+          <HasBackward>false</HasBackward>
+        </Connection>
+      </Connections>
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Вращение" ShortName="21639" Tag="21639" Role="Vraschenie" Value="Stop">
+      <ID TaskNumber="0" ItemID="21639" RawItemID="0" TypeHash="4" Path="" STType="STRING" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections>
+        <Connection Tag="0" Direction="Forward">
+          <Parent TaskNumber="0" ItemID="21639" RawItemID="0" TypeHash="4" Path="" STType="STRING" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </Parent>
+          <Target TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="4" Path="svg:blades:class" STType="STRING" UIDType="SVG" />
+          <UpdateType>true</UpdateType>
+          <HasBackward>false</HasBackward>
+        </Connection>
+      </Connections>
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Общая авария" ShortName="21643" Tag="21643" Role="Obschaya_avariya" Value="">
+      <ID TaskNumber="0" ItemID="21643" RawItemID="0" TypeHash="4" Path="" STType="STRING" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections>
+        <Connection Tag="0" Direction="Forward">
+          <Parent TaskNumber="0" ItemID="21643" RawItemID="0" TypeHash="4" Path="" STType="STRING" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </Parent>
+          <Target TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="4" Path="svg:AvaryBorder:class" STType="STRING" UIDType="SVG" />
+          <UpdateType>true</UpdateType>
+          <HasBackward>false</HasBackward>
+        </Connection>
+      </Connections>
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="XType" ShortName="XType" Tag="0" Role="XType" Value="1">
+      <ID TaskNumber="0" ItemID="4294967272" RawItemID="0" TypeHash="5" Path="" STType="HMI.SizeType" UIDType="Inner" />
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="YType" ShortName="YType" Tag="0" Role="YType" Value="1">
+      <ID TaskNumber="0" ItemID="4294967271" RawItemID="0" TypeHash="5" Path="" STType="HMI.SizeType" UIDType="Inner" />
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="DynamicSVG" ShortName="DynamicSVG" Tag="0" Role="DynamicSVG" Value="False">
+      <ID TaskNumber="0" ItemID="4294967270" RawItemID="0" TypeHash="3" Path="" STType="BOOL" UIDType="Inner" />
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="ProportionType" ShortName="ProportionType" Tag="0" Role="ProportionType" Value="4">
+      <ID TaskNumber="0" ItemID="4294967269" RawItemID="0" TypeHash="5" Path="" STType="HMI.ProportionType" UIDType="Inner" />
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="WidthType" ShortName="WidthType" Tag="0" Role="WidthType" Value="1">
+      <ID TaskNumber="0" ItemID="4294967268" RawItemID="0" TypeHash="5" Path="" STType="HMI.SizeType" UIDType="Inner" />
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="HeightType" ShortName="HeightType" Tag="0" Role="HeightType" Value="1">
+      <ID TaskNumber="0" ItemID="4294967267" RawItemID="0" TypeHash="5" Path="" STType="HMI.SizeType" UIDType="Inner" />
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+  </Parameters>
+  <Resources>
+    <Resource Name="Библиотеки.BaseObjects.Окна.Аппараты.Турбина.Медиа.SVGResource" ShortName="21651" Tag="21651" ResourceFormat="SVG" FileNameToSave="21651-969d76da17474020c18ec9edf65da2c2.SVG">
+      <ID TaskNumber="0" ItemID="21651" RawItemID="0" TypeHash="4" Path="" STType="STRING" UIDType="Inner" />
+      <Parent TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="21656" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <Value>77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4yLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCJbXT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0ic3Zncm9vdGlkIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjYwcHgiIGhlaWdodD0iNjBweCIgdmlld0JveD0iMCAwIDYwIDYwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA2MCA2MCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+DQoJICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KICAgIDwhW0NEQVRBWyAgICANCiAgICAgI2JvZHl7DQoJIGZpbHRlcjp1cmwoI0JvZHlGaWx0ZXIpO30NCiAgCSNibGFkZXMuU3RhcnQgI2FuaW1hdGVkX2JsYWRlcyB7DQogIAkJZGlzcGxheTppbmxpbmU7DQogIAl9DQogIAkjYmxhZGVzLlN0YXJ0ICNTdG9wcGVkX2JsYWRlcyB7DQogIAkJZGlzcGxheTpub25lOw0KICAJfQ0KICAgICBdXT4NCiAgCQ0KICA8L3N0eWxlPg0KICAgPGRlZnMgaWQ9ImRlZiI+DQogICAgPGZpbHRlciBpZD0iQm9keUZpbHRlciI+DQogICAgICAgIAk8ZmVDb2xvck1hdHJpeCBpZD0iZmVDb2xvck1hdHJpeEJvZHlGaWx0ZXIiIHZhbHVlcz0iMSAwIDAgMCAwIDAgMSAwIDAgMCAwIDAgMSAwIDAgMCAwIDAgMSAwIiAvPg0KICAgIDwvZmlsdGVyPg0KCTwvZGVmcz4NCjxnIGlkPSJib2R5Ij4NCgkNCgkJPHJhZGlhbEdyYWRpZW50IGlkPSJTVkdJRF8xXyIgY3g9IjI3OS42NjExIiBjeT0iLTM0MS45NiIgcj0iMjcuODA1NCIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAtMSAtMjQ5LjY2MDIgLTMxMS45NikiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4NCgkJPHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojODc4Nzg3IiAvPg0KCQk8c3RvcCBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiM1NzU3NTYiIC8+DQoJPC9yYWRpYWxHcmFkaWVudD4NCgkNCgkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8yXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIyNTEuMzU1NSIgeTE9Ii0zNDEuOTYiIHgyPSIzMDcuOTY2OCIgeTI9Ii0zNDEuOTYiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgLTEgLTI0OS42NjAyIC0zMTEuOTYpIj4NCgkJPHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojRkZGRkZGIiAvPg0KCQk8c3RvcCBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMzQzNDM0IiIC8+DQoJPC9saW5lYXJHcmFkaWVudD4NCgk8Y2lyY2xlIGZpbGw9InVybCgjU1ZHSURfMV8pIiBzdHJva2U9InVybCgjU1ZHSURfMl8pIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIGN4PSIzMC4wMDEiIGN5PSIzMCIgcj0iMjcuODA1IiAvPg0KCTxnPg0KCQkNCgkJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfM18iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjQ5LjY4MzYiIHkxPSItMzQxLjk2IiB4Mj0iMzA5LjYzNjciIHkyPSItMzQxLjk2IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIC0xIC0yNDkuNjYwMiAtMzExLjk2KSI+DQoJCQk8c3RvcCBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiM4Nzg3ODciIC8+DQoJCQk8c3RvcCBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMzQzNDM0IiIC8+DQoJCTwvbGluZWFyR3JhZGllbnQ+DQoJCTxjaXJjbGUgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI1NWR0lEXzNfKSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBjeD0iMzAiIGN5PSIzMCIgcj0iMjkuNDc3IiAvPg0KCQkNCgkJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfNF8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjUwLjg3MyIgeTE9Ii0zNDEuOTYiIHgyPSIzMDguNDQ5MiIgeTI9Ii0zNDEuOTYiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgLTEgLTI0OS42NjAyIC0zMTEuOTYpIj4NCgkJCTxzdG9wIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6Izg3ODc4NyIgLz4NCgkJCTxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzNDM0MzQiIgLz4NCgkJPC9saW5lYXJHcmFkaWVudD4NCgkJPGNpcmNsZSBmaWxsPSJub25lIiBzdHJva2U9InVybCgjU1ZHSURfNF8pIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIGN4PSIzMC4wMDEiIGN5PSIzMCIgcj0iMjguMjg4IiAvPg0KCQkNCgkJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfNV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjUyLjA2MDUiIHkxPSItMzQxLjk2IiB4Mj0iMzA3LjI1OTgiIHkyPSItMzQxLjk2IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIC0xIC0yNDkuNjYwMiAtMzExLjk2KSI+DQoJCQk8c3RvcCBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiM4Nzg3ODciIC8+DQoJCQk8c3RvcCBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMzQzNDM0IiIC8+DQoJCTwvbGluZWFyR3JhZGllbnQ+DQoJCTxjaXJjbGUgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI1NWR0lEXzVfKSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBjeD0iMzAiIGN5PSIzMCIgcj0iMjcuMDk5IiAvPg0KCTwvZz4NCgk8Zz4NCgkJDQoJCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzZfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjM0LjAzNzEiIHkxPSItMTg4LjE4MTYiIHgyPSIzMy4wMDczIiB5Mj0iLTE4Ny4xNTE5IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIC0xIC0yLjc5MSAtMTg1LjQ3MjcpIj4NCgkJCTxzdG9wIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzU3NTc1NiIgLz4NCgkJCTxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzAwMDAwMCIgLz4NCgkJPC9saW5lYXJHcmFkaWVudD4NCgkJPGNpcmNsZSBmaWxsPSJ1cmwoI1NWR0lEXzZfKSIgY3g9IjMwLjczIiBjeT0iMi4xOTQiIHI9IjAuNzI5IiAvPg0KCQkNCgkJCTxyYWRpYWxHcmFkaWVudCBpZD0iU1ZHSURfN18iIGN4PSIzMy40NDgyIiBjeT0iLTE4Ny4zNzU1IiByPSIwLjg0MTEiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgLTEgLTIuNzkxIC0xODUuNDcyNykiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4NCgkJCTxzdG9wIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6I0ZGRkZGRiIgLz4NCgkJCTxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzAwMDAwMCIgLz4NCgkJPC9yYWRpYWxHcmFkaWVudD4NCgkJPGNpcmNsZSBmaWxsPSJ1cmwoI1NWR0lEXzdfKSIgY3g9IjMwLjczIiBjeT0iMi4xOTQiIHI9IjAuNTgyIiAvPg0KCQkNCgkJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfOF8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMTQ4Ljc1NzgiIHkxPSItMTQ2LjI1NjMiIHgyPSIxNDguNjc4NCIgeTI9Ii0xNDYuMjE1OCIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgwLjg2NiAwLjUgMC41IC0wLjg2NiAtMjQuOTM5NyAtMTk4Ljc5NzMpIj4NCgkJCTxzdG9wIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzY2NjY2NiIgLz4NCgkJCTxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzAwMDAwMCIgLz4NCgkJPC9saW5lYXJHcmFkaWVudD4NCgkJPHBvbHlnb24gZmlsbD0idXJsKCNTVkdJRF84XykiIHBvaW50cz0iMzAuMjgxLDIuNTY3IDMwLjIwNCwyLjQ0NiAzMS4xNzYsMS44MjggMzEuMjUzLDEuOTQ4IAkJIiAvPg0KCTwvZz4NCgk8Zz4NCgkJDQoJCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzlfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUuNTAyNCIgeTE9Ii0yMTcuMDMyNyIgeDI9IjQuNDcxOSIgeTI9Ii0yMTYuMDAyMyIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAtMSAtMi43OTEgLTE4NS40NzI3KSI+DQoJCQk8c3RvcCBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiM1NzU3NTYiIC8+DQoJCQk8c3RvcCBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDAwMDAiIC8+DQoJCTwvbGluZWFyR3JhZGllbnQ+DQoJCTxjaXJjbGUgZmlsbD0idXJsKCNTVkdJRF85XykiIGN4PSIyLjE5NSIgY3k9IjMxLjA0NSIgcj0iMC43MjkiIC8+DQoJCQ0KCQkJPHJhZGlhbEdyYWRpZW50IGlkPSJTVkdJRF8xMF8iIGN4PSI0LjkxMzEiIGN5PSItMjE2LjIyNjYiIHI9IjAuODQxNCIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAtMSAtMi43OTEgLTE4NS40NzI3KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPg0KCQkJPHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojRkZGRkZGIiAvPg0KCQkJPHN0b3Agb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMDAwMDAwIiAvPg0KCQk8L3JhZGlhbEdyYWRpZW50Pg0KCQk8Y2lyY2xlIGZpbGw9InVybCgjU1ZHSURfMTBfKSIgY3g9IjIuMTk1IiBjeT0iMzEuMDQ1IiByPSIwLjU4MiIgLz4NCgkJDQoJCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzExXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIxMzguNDcxNyIgeTE9Ii0xODUuNTEwMyIgeDI9IjEzOC4zOTIzIiB5Mj0iLTE4NS40Njk4IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDAuODY2IDAuNSAwLjUgLTAuODY2IC0yNC45Mzk3IC0xOTguNzk3MykiPg0KCQkJPHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojNjY2NjY2IiAvPg0KCQkJPHN0b3Agb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMDAwMDAwIiAvPg0KCQk8L2xpbmVhckdyYWRpZW50Pg0KCQk8cG9seWdvbiBmaWxsPSJ1cmwoI1NWR0lEXzExXykiIHBvaW50cz0iMS43NDcsMzEuNDE4IDEuNjY5LDMxLjI5NyAyLjY0MSwzMC42NzggMi43MTgsMzAuNzk4IAkJIiAvPg0KCTwvZz4NCgk8Zz4NCgkJDQoJCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzEyXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI2MS4xMTMzIiB5MT0iLTIxNy4wMzAzIiB4Mj0iNjAuMDgyMyIgeTI9Ii0yMTUuOTk5MiIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAtMSAtMi43OTEgLTE4NS40NzI3KSI+DQoJCQk8c3RvcCBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiM1NzU3NTYiIC8+DQoJCQk8c3RvcCBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDAwMDAiIC8+DQoJCTwvbGluZWFyR3JhZGllbnQ+DQoJCTxjaXJjbGUgZmlsbD0idXJsKCNTVkdJRF8xMl8pIiBjeD0iNTcuODA3IiBjeT0iMzEuMDQyIiByPSIwLjcyOSIgLz4NCgkJDQoJCQk8cmFkaWFsR3JhZGllbnQgaWQ9IlNWR0lEXzEzXyIgY3g9IjYwLjUyMzQiIGN5PSItMjE2LjIyMzYiIHI9IjAuODQwOSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAtMSAtMi43OTEgLTE4NS40NzI3KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPg0KCQkJPHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojRkZGRkZGIiAvPg0KCQkJPHN0b3Agb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMDAwMDAwIiAvPg0KCQk8L3JhZGlhbEdyYWRpZW50Pg0KCQk8Y2lyY2xlIGZpbGw9InVybCgjU1ZHSURfMTNfKSIgY3g9IjU3LjgwNyIgY3k9IjMxLjA0MiIgcj0iMC41ODEiIC8+DQoJCQ0KCQkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8xNF8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMTg2LjYzMDkiIHkxPSItMTU3LjcwMTIiIHgyPSIxODYuNTUzIiB5Mj0iLTE1Ny42NjE1IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDAuODY2IDAuNSAwLjUgLTAuODY2IC0yNC45Mzk3IC0xOTguNzk3MykiPg0KCQkJPHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojNjY2NjY2IiAvPg0KCQkJPHN0b3Agb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMDAwMDAwIiAvPg0KCQk8L2xpbmVhckdyYWRpZW50Pg0KCQk8cG9seWdvbiBmaWxsPSJ1cmwoI1NWR0lEXzE0XykiIHBvaW50cz0iNTcuMzU1LDMxLjQxNSA1Ny4yNzksMzEuMjk0IDU4LjI1MiwzMC42NzUgNTguMzI4LDMwLjc5NSAJCSIgLz4NCgk8L2c+DQoJPGc+DQoJCQ0KCQkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8xNV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMzMuNTExNyIgeTE9Ii0yNDMuNzkzNSIgeDI9IjMyLjQ4MjIiIHkyPSItMjQyLjc2MzkiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgLTEgLTIuNzkxIC0xODUuNDcyNykiPg0KCQkJPHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojNTc1NzU2IiAvPg0KCQkJPHN0b3Agb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMDAwMDAwIiAvPg0KCQk8L2xpbmVhckdyYWRpZW50Pg0KCQk8Y2lyY2xlIGZpbGw9InVybCgjU1ZHSURfMTVfKSIgY3g9IjMwLjIwNCIgY3k9IjU3LjgwNiIgcj0iMC43MjkiIC8+DQoJCQ0KCQkJPHJhZGlhbEdyYWRpZW50IGlkPSJTVkdJRF8xNl8iIGN4PSIzMi45MjE5IiBjeT0iLTI0Mi45ODgzIiByPSIwLjg0MTQiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgLTEgLTIuNzkxIC0xODUuNDcyNykiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4NCgkJCTxzdG9wIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6I0ZGRkZGRiIgLz4NCgkJCTxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzAwMDAwMCIgLz4NCgkJPC9yYWRpYWxHcmFkaWVudD4NCgkJPGNpcmNsZSBmaWxsPSJ1cmwoI1NWR0lEXzE2XykiIGN4PSIzMC4yMDQiIGN5PSI1Ny44MDciIHI9IjAuNTgyIiAvPg0KCQkNCgkJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMTdfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjE3Ni4xMDg0IiB5MT0iLTE5NC42Nzk3IiB4Mj0iMTc2LjAzMSIgeTI9Ii0xOTQuNjQwMiIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgwLjg2NiAwLjUgMC41IC0wLjg2NiAtMjQuOTM5NyAtMTk4Ljc5NzMpIj4NCgkJCTxzdG9wIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzY2NjY2NiIgLz4NCgkJCTxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzAwMDAwMCIgLz4NCgkJPC9saW5lYXJHcmFkaWVudD4NCgkJPHBvbHlnb24gZmlsbD0idXJsKCNTVkdJRF8xN18pIiBwb2ludHM9IjI5Ljc1NSw1OC4xNzggMjkuNjc4LDU4LjA1OSAzMC42NSw1Ny40MzggMzAuNzI3LDU3LjU1OSAJCSIgLz4NCgk8L2c+DQoJPGc+DQoJCQ0KCQkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8xOF8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMTY4Ljc2NzYiIHkxPSItMTMxLjk4NjMiIHgyPSIxNjcuNzM2MiIgeTI9Ii0xMzAuOTU0OSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAtMSAtMTU4LjE1MDQgLTEyMS4zOTI2KSI+DQoJCQk8c3RvcCBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiM1NzU3NTYiIC8+DQoJCQk8c3RvcCBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDAwMDAiIC8+DQoJCTwvbGluZWFyR3JhZGllbnQ+DQoJCTxjaXJjbGUgZmlsbD0idXJsKCNTVkdJRF8xOF8pIiBjeD0iMTAuMTAxIiBjeT0iMTAuMDc5IiByPSIwLjcyOSIgLz4NCgkJDQoJCQk8cmFkaWFsR3JhZGllbnQgaWQ9IlNWR0lEXzE5XyIgY3g9IjE2OC4xNzg3IiBjeT0iLTEzMS4xNzg3IiByPSIwLjg0MTEiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgLTEgLTE1OC4xNTA0IC0xMjEuMzkyNikiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4NCgkJCTxzdG9wIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6I0ZGRkZGRiIgLz4NCgkJCTxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzAwMDAwMCIgLz4NCgkJPC9yYWRpYWxHcmFkaWVudD4NCgkJPGNpcmNsZSBmaWxsPSJ1cmwoI1NWR0lEXzE5XykiIGN4PSIxMC4xMDEiIGN5PSIxMC4wNzkiIHI9IjAuNTgxIiAvPg0KCQkNCgkJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMjBfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjIzNy4zMzg5IiB5MT0iLTMwLjIyMDIiIHgyPSIyMzcuMjYxNSIgeTI9Ii0zMC4xODA4IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDAuODY2IDAuNSAwLjUgLTAuODY2IC0xODAuMjk5MSAtMTM0LjcxNTMpIj4NCgkJCTxzdG9wIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzY2NjY2NiIgLz4NCgkJCTxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzAwMDAwMCIgLz4NCgkJPC9saW5lYXJHcmFkaWVudD4NCgkJPHBvbHlnb24gZmlsbD0idXJsKCNTVkdJRF8yMF8pIiBwb2ludHM9IjkuNjUxLDEwLjQ1IDkuNTc1LDEwLjMzMSAxMC41NDYsOS43MTIgMTAuNjI0LDkuODMxIAkJIiAvPg0KCTwvZz4NCgk8Zz4NCgkJDQoJCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzIxXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSItNTAuNzk2OSIgeTE9Ii04MC44NjE4IiB4Mj0iLTUxLjgyODMiIHkyPSItNzkuODMwNCIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAtMSA2MS40MTQxIC0zMS4yMTY4KSI+DQoJCQk8c3RvcCBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiM1NzU3NTYiIC8+DQoJCQk8c3RvcCBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDAwMDAiIC8+DQoJCTwvbGluZWFyR3JhZGllbnQ+DQoJCTxjaXJjbGUgZmlsbD0idXJsKCNTVkdJRF8yMV8pIiBjeD0iMTAuMSIgY3k9IjQ5LjEzIiByPSIwLjcyOSIgLz4NCgkJDQoJCQk8cmFkaWFsR3JhZGllbnQgaWQ9IlNWR0lEXzIyXyIgY3g9Ii01MS4zODY3IiBjeT0iLTgwLjA1NjYiIHI9IjAuODQwNiIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAtMSA2MS40MTQxIC0zMS4yMTY4KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPg0KCQkJPHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojRkZGRkZGIiAvPg0KCQkJPHN0b3Agb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMDAwMDAwIiAvPg0KCQk8L3JhZGlhbEdyYWRpZW50Pg0KCQk8Y2lyY2xlIGZpbGw9InVybCgjU1ZHSURfMjJfKSIgY3g9IjEwLjEwMSIgY3k9IjQ5LjEzIiByPSIwLjU4MSIgLz4NCgkJDQoJCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzIzXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIyMS42MjM1IiB5MT0iLTk1LjczNTQiIHgyPSIyMS41NDQyIiB5Mj0iLTk1LjY5NSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgwLjg2NiAwLjUgMC41IC0wLjg2NiAzOS4yNjYzIC00NC41NDA1KSI+DQoJCQk8c3RvcCBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiM2NjY2NjYiIC8+DQoJCQk8c3RvcCBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDAwMDAiIC8+DQoJCTwvbGluZWFyR3JhZGllbnQ+DQoJCTxwb2x5Z29uIGZpbGw9InVybCgjU1ZHSURfMjNfKSIgcG9pbnRzPSI5LjY1LDQ5LjUwMyA5LjU3NCw0OS4zODIgMTAuNTQ2LDQ4Ljc2NCAxMC42MjMsNDguODg0IAkJIiAvPg0KCTwvZz4NCgk8Zz4NCgkJDQoJCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzI0XyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIxMTYuNzgxMyIgeTE9Ii0zODkuNTkzOCIgeDI9IjExNS43NTAxIiB5Mj0iLTM4OC41NjI2IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIC0xIC02Ni40NjU4IC0zMzkuOTQ4MikiPg0KCQkJPHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojNTc1NzU2IiAvPg0KCQkJPHN0b3Agb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMDAwMDAwIiAvPg0KCQk8L2xpbmVhckdyYWRpZW50Pg0KCQk8Y2lyY2xlIGZpbGw9InVybCgjU1ZHSURfMjRfKSIgY3g9IjQ5LjgiIGN5PSI0OS4xMyIgcj0iMC43MjkiIC8+DQoJCQ0KCQkJPHJhZGlhbEdyYWRpZW50IGlkPSJTVkdJRF8yNV8iIGN4PSIxMTYuMTkzNCIgY3k9Ii0zODguNzg2MSIgcj0iMC44NDA2IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIC0xIC02Ni40NjU4IC0zMzkuOTQ4MikiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4NCgkJCTxzdG9wIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6I0ZGRkZGRiIgLz4NCgkJCTxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzAwMDAwMCIgLz4NCgkJPC9yYWRpYWxHcmFkaWVudD4NCgkJPGNpcmNsZSBmaWxsPSJ1cmwoI1NWR0lEXzI1XykiIGN4PSI0OS44IiBjeT0iNDkuMTMiIHI9IjAuNTgyIiAvPg0KCQkNCgkJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMjZfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjMyMS4xMjciIHkxPSItMjc5LjMxMiIgeDI9IjMyMS4wNDgiIHkyPSItMjc5LjI3MTgiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMC44NjYgMC41IDAuNSAtMC44NjYgLTg4LjYxMzYgLTM1My4yNzE5KSI+DQoJCQk8c3RvcCBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiM2NjY2NjYiIC8+DQoJCQk8c3RvcCBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDAwMDAiIC8+DQoJCTwvbGluZWFyR3JhZGllbnQ+DQoJCTxwb2x5Z29uIGZpbGw9InVybCgjU1ZHSURfMjZfKSIgcG9pbnRzPSI0OS4zNTIsNDkuNTAzIDQ5LjI3Myw0OS4zODIgNTAuMjQ2LDQ4Ljc2NCA1MC4zMjIsNDguODg0IAkJIiAvPg0KCTwvZz4NCgk8Zz4NCgkJDQoJCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzI3XyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSItMTAyLjA1OTYiIHkxPSItMjYwLjYxMTgiIHgyPSItMTAzLjA5MDgiIHkyPSItMjU5LjU4MDYiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgLTEgMTUyLjM3NyAtMjUwLjAxNzYpIj4NCgkJCTxzdG9wIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzU3NTc1NiIgLz4NCgkJCTxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzAwMDAwMCIgLz4NCgkJPC9saW5lYXJHcmFkaWVudD4NCgkJPGNpcmNsZSBmaWxsPSJ1cmwoI1NWR0lEXzI3XykiIGN4PSI0OS44IiBjeT0iMTAuMDc4IiByPSIwLjcyOSIgLz4NCgkJDQoJCQk8cmFkaWFsR3JhZGllbnQgaWQ9IlNWR0lEXzI4XyIgY3g9Ii0xMDIuNjUwNCIgY3k9Ii0yNTkuODAzNyIgcj0iMC44NDExIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIC0xIDE1Mi4zNzcgLTI1MC4wMTc2KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPg0KCQkJPHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojRkZGRkZGIiAvPg0KCQkJPHN0b3Agb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMDAwMDAwIiAvPg0KCQk8L3JhZGlhbEdyYWRpZW50Pg0KCQk8Y2lyY2xlIGZpbGw9InVybCgjU1ZHSURfMjhfKSIgY3g9IjQ5LjgiIGN5PSIxMC4wNzgiIHI9IjAuNTgyIiAvPg0KCQkNCgkJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMjlfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjY3LjEwNjQiIHkxPSItMjc3LjAzMjciIHgyPSI2Ny4wMjc1IiB5Mj0iLTI3Ni45OTI1IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDAuODY2IDAuNSAwLjUgLTAuODY2IDEzMC4yMjkyIC0yNjMuMzQwMykiPg0KCQkJPHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojNjY2NjY2IiAvPg0KCQkJPHN0b3Agb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMDAwMDAwIiAvPg0KCQk8L2xpbmVhckdyYWRpZW50Pg0KCQk8cG9seWdvbiBmaWxsPSJ1cmwoI1NWR0lEXzI5XykiIHBvaW50cz0iNDkuMzUyLDEwLjQ1MSA0OS4yNzMsMTAuMzMgNTAuMjQ2LDkuNzEyIDUwLjMyMyw5LjgzMiAJCSIgLz4NCgk8L2c+DQoJPGcgaWQ9ImJsYWRlcyIgY2xhc3M9IlN0b3AiPg0KCQk8ZyBpZD0iYW5pbWF0ZWRfYmxhZGVzIiBkaXNwbGF5PSJub25lIj4NCgkJCQ0KCQkJCTxhbmltYXRlVHJhbnNmb3JtIHR5cGU9InJvdGF0ZSIgZmlsbD0icmVtb3ZlIiBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIGR1cj0iMS41cyIgZnJvbT0iMCwzMCwzMCIgcmVzdGFydD0iYWx3YXlzIiBhZGRpdGl2ZT0icmVwbGFjZSIgY2FsY01vZGU9ImxpbmVhciIgYWNjdW11bGF0ZT0ibm9uZSIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGF0dHJpYnV0ZVR5cGU9IlhNTCIgYmVnaW49IjBzIiB0bz0iMzYwLDMwLDMwIiBpZD0iYmxvd2VyIj4NCgkJCQk8L2FuaW1hdGVUcmFuc2Zvcm0+DQoJCQkNCgkJCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzMwXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIyNzYuNTc0MiIgeTE9Ii0zMjkuNTk0NyIgeDI9IjI4Ni41ODk3IiB5Mj0iLTMyNS45NDk1IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIC0xIC0yNDkuNjYwMiAtMzExLjk2KSI+DQoJCQkJPHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojQkVDM0NBIiAvPg0KCQkJCTxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzI4MkQyRCIgLz4NCgkJCTwvbGluZWFyR3JhZGllbnQ+DQoJCQk8cGF0aCBkaXNwbGF5PSJpbmxpbmUiIGZpbGw9InVybCgjU1ZHSURfMzBfKSIgZD0iTTI0LjA4Myw4LjY2MWMwLjM4OSwwLjQ5MywwLjgyNiwxLjA1NywxLjI5NywxLjY5OSYjeEQ7JiN4QTsJCQkJYzQuMzU1LDUuOTIzLDYuOTcsMTMuNzYzLDYuOTcsMTMuNzYzbDQuNTMsMi4zNTJjMCwwLTAuOTU5LTExLjMyNC0xLjMxLTE0LjcyMWMtMC4zNDYtMy4zOTEtMS4zMDMtNS41NjUtMy4wMzYtNi4zNTQmI3hEOyYjeEE7CQkJCWMtMC41OTMtMC4wNC0xLjE4OC0wLjA2Mi0xLjc5Mi0wLjA2MmMtMi4yMTEsMC00LjM1NCwwLjI5OC02LjQxLDAuNzk3QzIyLjE4NSw2LjY1NywyMy40LDcuNzk1LDI0LjA4Myw4LjY2MXoiIC8+DQoJCQkNCgkJCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzMxXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIyNzIuNzI2NiIgeTE9Ii0zNTcuOTY5NyIgeDI9IjI4Mi43NDIiIHkyPSItMzU0LjMyNDQiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgLTEgLTI0OS42NjAyIC0zMTEuOTYpIj4NCgkJCQk8c3RvcCBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiMyODJEMkQiIC8+DQoJCQkJPHN0b3Agb2Zmc2V0PSIwLjQzMzEiIHN0eWxlPSJzdG9wLWNvbG9yOiM2RTc1NzciIC8+DQoJCQkJPHN0b3Agb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojQkVDM0NBIiAvPg0KCQkJPC9saW5lYXJHcmFkaWVudD4NCgkJCTxwYXRoIGRpc3BsYXk9ImlubGluZSIgZmlsbD0idXJsKCNTVkdJRF8zMV8pIiBkPSJNMzUuOTE0LDUxLjMzOGMtMC4zODktMC40OTQtMC44MjQtMS4wNTctMS4yOTctMS42OTkmI3hEOyYjeEE7CQkJCWMtNC4zNTYtNS45MjQtNi45NjktMTMuNzY0LTYuOTY5LTEzLjc2NGwtNC41MjktMi4zNTJjMCwwLDAuOTU3LDExLjMyNCwxLjMwNywxNC43MjFjMC4zNDgsMy4zOTEsMS4zMDMsNS41NjYsMy4wMzcsNi4zNTUmI3hEOyYjeEE7CQkJCWMwLjU5MiwwLjAzOSwxLjE4OSwwLjA2MywxLjc5MSwwLjA2M2MyLjIxMywwLDQuMzU1LTAuMjk5LDYuNDExLTAuNzk5QzM3LjgxMyw1My4zNDIsMzYuNTk4LDUyLjIwMywzNS45MTQsNTEuMzM4eiIgLz4NCgkJCQ0KCQkJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMzJfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9Ii01NzEuMTg0NiIgeTE9Ii0xMDE3LjYzNzciIHgyPSItNTYxLjE2ODIiIHkyPSItMTAxMy45OTIxIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDAuNSAtMC44NjYgLTAuODY2IC0wLjUgLTU3Ny45MzMgLTk3Ni45NzYzKSI+DQoJCQkJPHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojQkVDM0NBIiAvPg0KCQkJCTxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzI4MkQyRCIgLz4NCgkJCTwvbGluZWFyR3JhZGllbnQ+DQoJCQk8cGF0aCBkaXNwbGF5PSJpbmxpbmUiIGZpbGw9InVybCgjU1ZHSURfMzJfKSIgZD0iTTguNTYsMjQuNDUzYzAuNjIzLTAuMDksMS4zMjgtMC4xODcsMi4xMjEtMC4yNzQmI3hEOyYjeEE7CQkJCWM3LjMwOS0wLjgxLDE1LjQwNCwwLjg0NywxNS40MDQsMC44NDdsNC4zMDEtMi43NDdjMCwwLTEwLjI4NS00LjgzMi0xMy40MDItNi4yMjljLTMuMTA5LTEuMzk1LTUuNDcxLTEuNjU1LTcuMDIxLTAuNTQ2JiN4RDsmI3hBOwkJCQljLTAuMzMsMC40OTItMC42NDgsMC45OTgtMC45NDksMS41MTljLTEuMTA1LDEuOTE3LTEuOTIsMy45MjEtMi41MTQsNS45NTFDNS44NzYsMjUuMDk0LDcuNDcsMjQuNjEyLDguNTYsMjQuNDUzeiIgLz4NCgkJCQ0KCQkJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMzNfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9Ii01NzUuMDMwMyIgeTE9Ii0xMDQ2LjAxNDIiIHgyPSItNTY1LjAxMzkiIHkyPSItMTA0Mi4zNjg3IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDAuNSAtMC44NjYgLTAuODY2IC0wLjUgLTU3Ny45MzMgLTk3Ni45NzYzKSI+DQoJCQkJPHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojMjgyRDJEIiAvPg0KCQkJCTxzdG9wIG9mZnNldD0iMC40MzMxIiBzdHlsZT0ic3RvcC1jb2xvcjojNkU3NTc3IiAvPg0KCQkJCTxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6I0JFQzNDQSIgLz4NCgkJCTwvbGluZWFyR3JhZGllbnQ+DQoJCQk8cGF0aCBkaXNwbGF5PSJpbmxpbmUiIGZpbGw9InVybCgjU1ZHSURfMzNfKSIgZD0iTTUxLjQzOCwzNS41NDVjLTAuNjIzLDAuMDktMS4zMjgsMC4xODgtMi4xMjEsMC4yNzUmI3hEOyYjeEE7CQkJCWMtNy4zMDksMC44MTEtMTUuNDAzLTAuODQ4LTE1LjQwMy0wLjg0OGwtNC4zMDEsMi43NDhjMCwwLDEwLjI4OSw0LjgzMSwxMy40MDQsNi4yMjljMy4xMDgsMS4zOTUsNS40NzEsMS42NTQsNy4wMjEsMC41NDcmI3hEOyYjeEE7CQkJCWMwLjMzLTAuNDk0LDAuNjQ3LTAuOTk4LDAuOTQ4LTEuNTJjMS4xMDctMS45MTYsMS45Mi0zLjkyMiwyLjUxNy01Ljk1MUM1NC4xMjEsMzQuOTA0LDUyLjUyNywzNS4zODcsNTEuNDM4LDM1LjU0NXoiIC8+DQoJCQkNCgkJCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzM0XyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSItMTU5MS4yMjcxIiB5MT0iLTYyNy4zNDY3IiB4Mj0iLTE1ODEuMjEwNyIgeTI9Ii02MjMuNzAxIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KC0wLjUgLTAuODY2IC0wLjg2NiAwLjUgLTEzMTguMDY0IC0xMDI1LjQ3NjMpIj4NCgkJCQk8c3RvcCBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiNCRUMzQ0EiIC8+DQoJCQkJPHN0b3Agb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMjgyRDJEIiAvPg0KCQkJPC9saW5lYXJHcmFkaWVudD4NCgkJCTxwYXRoIGRpc3BsYXk9ImlubGluZSIgZmlsbD0idXJsKCNTVkdJRF8zNF8pIiBkPSJNMTQuNDc2LDQ1Ljc5MWMwLjIzMi0wLjU4NCwwLjUwMi0xLjI0MiwwLjgyMi0xLjk3MyYjeEQ7JiN4QTsJCQkJYzIuOTUzLTYuNzM0LDguNDM2LTEyLjkxNiw4LjQzNi0xMi45MTZsLTAuMjI5LTUuMTAxYzAsMC05LjMyOCw2LjQ5My0xMi4wOTYsOC40OTNjLTIuNzYyLDEuOTk2LTQuMTY4LDMuOTEyLTMuOTgyLDUuODA5JiN4RDsmI3hBOwkJCQljMC4yNiwwLjUzMSwwLjUzOSwxLjA2MiwwLjg0LDEuNThjMS4xMDcsMS45MTgsMi40MzYsMy42MjMsMy44OTYsNS4xNTRDMTMuNjg5LDQ4LjQzOCwxNC4wNyw0Ni44MTQsMTQuNDc2LDQ1Ljc5MXoiIC8+DQoJCQkNCgkJCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzM1XyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSItMTU5NS4wNzUyIiB5MT0iLTY1NS43MjM2IiB4Mj0iLTE1ODUuMDU4OCIgeTI9Ii02NTIuMDc3OSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgtMC41IC0wLjg2NiAtMC44NjYgMC41IC0xMzE4LjA2NCAtMTAyNS40NzYzKSI+DQoJCQkJPHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojMjgyRDJEIiAvPg0KCQkJCTxzdG9wIG9mZnNldD0iMC40MzMxIiBzdHlsZT0ic3RvcC1jb2xvcjojNkU3NTc3IiAvPg0KCQkJCTxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6I0JFQzNDQSIgLz4NCgkJCTwvbGluZWFyR3JhZGllbnQ+DQoJCQk8cGF0aCBkaXNwbGF5PSJpbmxpbmUiIGZpbGw9InVybCgjU1ZHSURfMzVfKSIgZD0iTTQ1LjUyMSwxNC4yMDdjLTAuMjMyLDAuNTg0LTAuNTAyLDEuMjQzLTAuODIyLDEuOTc0JiN4RDsmI3hBOwkJCQljLTIuOTUzLDYuNzMzLTguNDM2LDEyLjkxNy04LjQzNiwxMi45MTdsMC4yMjksNS4wOTdjMCwwLDkuMzI4LTYuNDkxLDEyLjA5Ni04LjQ5MWMyLjc2Mi0xLjk5Niw0LjE2OC0zLjkxMSwzLjk4Mi01LjgwOSYjeEQ7JiN4QTsJCQkJYy0wLjI2LTAuNTMyLTAuNTM5LTEuMDYxLTAuODQtMS41ODFjLTEuMTA3LTEuOTE2LTIuNDM3LTMuNjIzLTMuODk2LTUuMTUzQzQ2LjMwOSwxMS41NjEsNDUuOTMsMTMuMTgzLDQ1LjUyMSwxNC4yMDd6IiAvPg0KCQk8L2c+DQoJCTxnIGlkPSJTdG9wcGVkX2JsYWRlcyI+DQoJCQkNCgkJCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzM2XyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIyNzYuNTc2MiIgeTE9Ii0zMjkuNTk0NyIgeDI9IjI4Ni41OTI1IiB5Mj0iLTMyNS45NDkxIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIC0xIC0yNDkuNjYwMiAtMzExLjk2KSI+DQoJCQkJPHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojQkVDM0NBIiAvPg0KCQkJCTxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzI4MkQyRCIgLz4NCgkJCTwvbGluZWFyR3JhZGllbnQ+DQoJCQk8cGF0aCBmaWxsPSJ1cmwoI1NWR0lEXzM2XykiIGQ9Ik0yNC4wODQsOC42NjFjMC4zODksMC40OTMsMC44MjYsMS4wNTcsMS4yOTcsMS42OTljNC4zNTUsNS45MjMsNi45NjksMTMuNzYzLDYuOTY5LDEzLjc2MyYjeEQ7JiN4QTsJCQkJbDQuNTMxLDIuMzUyYzAsMC0wLjk1OS0xMS4zMjUtMS4zMDktMTQuNzIxQzM1LjIyNyw4LjM2MywzNC4yNyw2LjE4OSwzMi41MzUsNS40Yy0wLjU5Mi0wLjA0LTEuMTg5LTAuMDYyLTEuNzkxLTAuMDYyJiN4RDsmI3hBOwkJCQljLTIuMjExLDAtNC4zNTQsMC4yOTgtNi40MSwwLjc5N0MyMi4xODYsNi42NTcsMjMuNCw3Ljc5NSwyNC4wODQsOC42NjF6IiAvPg0KCQkJDQoJCQkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8zN18iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjcyLjcyODUiIHkxPSItMzU3Ljk2OTciIHgyPSIyODIuNzQzOSIgeTI9Ii0zNTQuMzI0MyIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAtMSAtMjQ5LjY2MDIgLTMxMS45NikiPg0KCQkJCTxzdG9wIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzI4MkQyRCIgLz4NCgkJCQk8c3RvcCBvZmZzZXQ9IjAuNDMzMSIgc3R5bGU9InN0b3AtY29sb3I6IzZFNzU3NyIgLz4NCgkJCQk8c3RvcCBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiNCRUMzQ0EiIC8+DQoJCQk8L2xpbmVhckdyYWRpZW50Pg0KCQkJPHBhdGggZmlsbD0idXJsKCNTVkdJRF8zN18pIiBkPSJNMzUuOTE0LDUxLjMzOGMtMC4zODktMC40OTQtMC44MjQtMS4wNTctMS4yOTctMS42OTljLTQuMzU1LTUuOTI0LTYuOTY5LTEzLjc2NC02Ljk2OS0xMy43NjQmI3hEOyYjeEE7CQkJCWwtNC41MjktMi4zNTJjMCwwLDAuOTU3LDExLjMyNCwxLjMwNywxNC43MjFjMC4zNDgsMy4zOTEsMS4zMDMsNS41NjYsMy4wMzcsNi4zNTVjMC41OTIsMC4wMzksMS4xODksMC4wNjMsMS43OTEsMC4wNjMmI3hEOyYjeEE7CQkJCWMyLjIxMywwLDQuMzU1LTAuMjk5LDYuNDEtMC43OTlDMzcuODEzLDUzLjM0MiwzNi41OTgsNTIuMjAzLDM1LjkxNCw1MS4zMzh6IiAvPg0KCQkJDQoJCQkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8zOF8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iLTU3MS4xODM2IiB5MT0iLTEwMTcuNjM4NyIgeDI9Ii01NjEuMTY2MyIgeTI9Ii0xMDEzLjk5MjciIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMC41IC0wLjg2NiAtMC44NjYgLTAuNSAtNTc3LjkzMyAtOTc2Ljk3NjMpIj4NCgkJCQk8c3RvcCBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiNCRUMzQ0EiIC8+DQoJCQkJPHN0b3Agb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMjgyRDJEIiAvPg0KCQkJPC9saW5lYXJHcmFkaWVudD4NCgkJCTxwYXRoIGZpbGw9InVybCgjU1ZHSURfMzhfKSIgZD0iTTguNTYxLDI0LjQ1M2MwLjYyMy0wLjA5LDEuMzI4LTAuMTg4LDIuMTIxLTAuMjc1YzcuMzA5LTAuODA5LDE1LjQwNCwwLjg0OCwxNS40MDQsMC44NDgmI3hEOyYjeEE7CQkJCWw0LjMwMS0yLjc0OGMwLDAtMTAuMjg1LTQuODMyLTEzLjQwMi02LjIyOGMtMy4xMDktMS4zOTUtNS40NzEtMS42NTUtNy4wMjEtMC41NDZjLTAuMzMsMC40OTItMC42NDgsMC45OTgtMC45NDksMS41MTkmI3hEOyYjeEE7CQkJCWMtMS4xMDUsMS45MTctMS45MiwzLjkyMS0yLjUxNCw1Ljk1MUM1Ljg3NywyNS4wOTQsNy40NzEsMjQuNjExLDguNTYxLDI0LjQ1M3oiIC8+DQoJCQkNCgkJCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzM5XyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSItNTc1LjAzMTMiIHkxPSItMTA0Ni4wMTQyIiB4Mj0iLTU2NS4wMTQiIHkyPSItMTA0Mi4zNjgzIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDAuNSAtMC44NjYgLTAuODY2IC0wLjUgLTU3Ny45MzMgLTk3Ni45NzYzKSI+DQoJCQkJPHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojMjgyRDJEIiAvPg0KCQkJCTxzdG9wIG9mZnNldD0iMC40MzMxIiBzdHlsZT0ic3RvcC1jb2xvcjojNkU3NTc3IiAvPg0KCQkJCTxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6I0JFQzNDQSIgLz4NCgkJCTwvbGluZWFyR3JhZGllbnQ+DQoJCQk8cGF0aCBmaWxsPSJ1cmwoI1NWR0lEXzM5XykiIGQ9Ik01MS40MzgsMzUuNTQ1Yy0wLjYyMywwLjA5LTEuMzI4LDAuMTg4LTIuMTIxLDAuMjc1Yy03LjMwOSwwLjgxMS0xNS40MDMtMC44NDgtMTUuNDAzLTAuODQ4JiN4RDsmI3hBOwkJCQlsLTQuMzAxLDIuNzQ4YzAsMCwxMC4yODcsNC44MzEsMTMuNDAyLDYuMjI5YzMuMTA5LDEuMzk1LDUuNDcxLDEuNjU0LDcuMDIxLDAuNTQ3YzAuMzMtMC40OTQsMC42NDgtMC45OTgsMC45NDktMS41MiYjeEQ7JiN4QTsJCQkJYzEuMTA2LTEuOTE2LDEuOTItMy45MjIsMi41MTYtNS45NTFDNTQuMTIxLDM0LjkwNCw1Mi41MjcsMzUuMzg3LDUxLjQzOCwzNS41NDV6IiAvPg0KCQkJDQoJCQkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF80MF8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iLTE1OTEuMjI1NiIgeTE9Ii02MjcuMzQ3MiIgeDI9Ii0xNTgxLjIwOTIiIHkyPSItNjIzLjcwMTUiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoLTAuNSAtMC44NjYgLTAuODY2IDAuNSAtMTMxOC4wNjQgLTEwMjUuNDc2MykiPg0KCQkJCTxzdG9wIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6I0JFQzNDQSIgLz4NCgkJCQk8c3RvcCBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMyODJEMkQiIC8+DQoJCQk8L2xpbmVhckdyYWRpZW50Pg0KCQkJPHBhdGggZmlsbD0idXJsKCNTVkdJRF80MF8pIiBkPSJNMTQuNDc3LDQ1Ljc5MWMwLjIzMi0wLjU4NCwwLjUwMi0xLjI0MiwwLjgyMi0xLjk3M2MyLjk1My02LjczNCw4LjQzNi0xMi45MTYsOC40MzYtMTIuOTE2JiN4RDsmI3hBOwkJCQlsLTAuMjI5LTUuMTAxYzAsMC05LjMyOCw2LjQ5Mi0xMi4wOTYsOC40OTJjLTIuNzYyLDEuOTk2LTQuMTY4LDMuOTEyLTMuOTgyLDUuODFjMC4yNiwwLjUzLDAuNTM5LDEuMDYxLDAuODQsMS41OCYjeEQ7JiN4QTsJCQkJYzEuMTA3LDEuOTE4LDIuNDM2LDMuNjIzLDMuODk2LDUuMTUzQzEzLjY4OSw0OC40MzgsMTQuMDcsNDYuODE0LDE0LjQ3Nyw0NS43OTF6IiAvPg0KCQkJDQoJCQkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF80MV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iLTE1OTUuMDc2MiIgeTE9Ii02NTUuNzI1NiIgeDI9Ii0xNTg1LjA1OSIgeTI9Ii02NTIuMDc5NiIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgtMC41IC0wLjg2NiAtMC44NjYgMC41IC0xMzE4LjA2NCAtMTAyNS40NzYzKSI+DQoJCQkJPHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojMjgyRDJEIiAvPg0KCQkJCTxzdG9wIG9mZnNldD0iMC40MzMxIiBzdHlsZT0ic3RvcC1jb2xvcjojNkU3NTc3IiAvPg0KCQkJCTxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6I0JFQzNDQSIgLz4NCgkJCTwvbGluZWFyR3JhZGllbnQ+DQoJCQk8cGF0aCBmaWxsPSJ1cmwoI1NWR0lEXzQxXykiIGQ9Ik00NS41MjEsMTQuMjA3Yy0wLjIzMiwwLjU4NC0wLjUwMiwxLjI0My0wLjgyMiwxLjk3NGMtMi45NTMsNi43MzQtOC40MzYsMTIuOTE3LTguNDM2LDEyLjkxNyYjeEQ7JiN4QTsJCQkJbDAuMjI5LDUuMDk3YzAsMCw5LjMyOC02LjQ5MSwxMi4wOTYtOC40OTFjMi43NjItMS45OTYsNC4xNjgtMy45MSwzLjk4Mi01LjgwOWMtMC4yNi0wLjUzMS0wLjUzOS0xLjA2LTAuODQtMS41ODEmI3hEOyYjeEE7CQkJCWMtMS4xMDctMS45MTYtMi40MzctMy42MjMtMy44OTYtNS4xNTNDNDYuMzA5LDExLjU2MSw0NS45MywxMy4xODMsNDUuNTIxLDE0LjIwN3oiIC8+DQoJCTwvZz4NCgk8L2c+DQoJPGc+DQoJCQ0KCQkJPHJhZGlhbEdyYWRpZW50IGlkPSJTVkdJRF80Ml8iIGN4PSIzNjAuNDIxOSIgY3k9Ii0yNzAuOTc3MSIgcj0iOC4xMzAxIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDAuOTc0NiAwLjIyMzkgMC4yMjM5IC0wLjk3NDYgLTI2MC40NDY0IC0zMTUuNzM1OCkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4NCgkJCTxzdG9wIG9mZnNldD0iMC43MzMzIiBzdHlsZT0ic3RvcC1jb2xvcjojMDAwMDAwIiAvPg0KCQkJPHN0b3Agb2Zmc2V0PSIwLjgwMjUiIHN0eWxlPSJzdG9wLWNvbG9yOiMxNDE0MTQiIC8+DQoJCQk8c3RvcCBvZmZzZXQ9IjAuODg5MyIgc3R5bGU9InN0b3AtY29sb3I6IzM3MzczNiIgLz4NCgkJCTxzdG9wIG9mZnNldD0iMC45ODUyIiBzdHlsZT0ic3RvcC1jb2xvcjojNTM1MjUyIiAvPg0KCQkJPHN0b3Agb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojNTc1NzU2IiAvPg0KCQk8L3JhZGlhbEdyYWRpZW50Pg0KCQk8Y2lyY2xlIGZpbGw9InVybCgjU1ZHSURfNDJfKSIgY3g9IjMwLjE0OSIgY3k9IjI5LjA1NyIgcj0iOC4xMjgiIC8+DQoJCQ0KCQkJPHJhZGlhbEdyYWRpZW50IGlkPSJTVkdJRF80M18iIGN4PSIzNjAuNDIwOSIgY3k9Ii0yNzAuOTc1NiIgcj0iNi4wOTc3IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDAuOTc0NiAwLjIyMzkgMC4yMjM5IC0wLjk3NDYgLTI2MC40NDY0IC0zMTUuNzM1OCkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4NCgkJCTxzdG9wIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6I0ZGRkZGRiIgLz4NCgkJCTxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzIxMjEyMSIgLz4NCgkJPC9yYWRpYWxHcmFkaWVudD4NCgkJPGNpcmNsZSBmaWxsPSJ1cmwoI1NWR0lEXzQzXykiIGN4PSIzMC4xNDkiIGN5PSIyOS4wNTYiIHI9IjYuMDk2IiAvPg0KCQk8Zz4NCgkJCQ0KCQkJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfNDRfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjYyNC4wMzgxIiB5MT0iLTIuNTUwOCIgeDI9IjYyMy4wMDcyIiB5Mj0iLTEuNTIiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMC45NzQ2IDAuMjIzOSAwLjIyMzkgLTAuOTc0NiAtNTcyLjQ3MTggLTExNy43MjIxKSI+DQoJCQkJPHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojNTc1NzU2IiAvPg0KCQkJCTxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzAwMDAwMCIgLz4NCgkJCTwvbGluZWFyR3JhZGllbnQ+DQoJCQk8Y2lyY2xlIGZpbGw9InVybCgjU1ZHSURfNDRfKSIgY3g9IjM0Ljc1MiIgY3k9IjIzLjg1OCIgcj0iMC43MjkiIC8+DQoJCQkNCgkJCQk8cmFkaWFsR3JhZGllbnQgaWQ9IlNWR0lEXzQ1XyIgY3g9IjYyMy40NDUzIiBjeT0iLTEuNzQ4IiByPSIwLjg0MSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgwLjk3NDYgMC4yMjM5IDAuMjIzOSAtMC45NzQ2IC01NzIuNDcxOCAtMTE3LjcyMjEpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+DQoJCQkJPHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojRkZGRkZGIiAvPg0KCQkJCTxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzAwMDAwMCIgLz4NCgkJCTwvcmFkaWFsR3JhZGllbnQ+DQoJCQk8Y2lyY2xlIGZpbGw9InVybCgjU1ZHSURfNDVfKSIgY3g9IjM0Ljc1MiIgY3k9IjIzLjg1OCIgcj0iMC41ODEiIC8+DQoJCQkNCgkJCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzQ2XyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI1NjYuODc3IiB5MT0iMzA5LjQ5OSIgeDI9IjU2Ni43OTc1IiB5Mj0iMzA5LjUzOTUiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMC43MzIxIDAuNjgxMiAwLjY4MTIgLTAuNzMyMSAtNTkxLjA3NDYgLTEzNS42NjI0KSI+DQoJCQkJPHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojNjY2NjY2IiAvPg0KCQkJCTxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzAwMDAwMCIgLz4NCgkJCTwvbGluZWFyR3JhZGllbnQ+DQoJCQk8cG9seWdvbiBmaWxsPSJ1cmwoI1NWR0lEXzQ2XykiIHBvaW50cz0iMzQuMjI5LDI0LjEyIDM0LjE4NCwyMy45ODUgMzUuMjcsMjMuNiAzNS4zMTYsMjMuNzM0IAkJCSIgLz4NCgkJPC9nPg0KCQk8Zz4NCgkJCQ0KCQkJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfNDdfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjYxNC42MjAxIiB5MT0iLTQuOTEwMiIgeDI9IjYxMy41ODg4IiB5Mj0iLTMuODc4OSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgwLjk3NDYgMC4yMjM5IDAuMjIzOSAtMC45NzQ2IC01NzIuNDcxOCAtMTE3LjcyMjEpIj4NCgkJCQk8c3RvcCBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiM1NzU3NTYiIC8+DQoJCQkJPHN0b3Agb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMDAwMDAwIiAvPg0KCQkJPC9saW5lYXJHcmFkaWVudD4NCgkJCTxjaXJjbGUgZmlsbD0idXJsKCNTVkdJRF80N18pIiBjeD0iMjUuMDQ0IiBjeT0iMjQuMDQ5IiByPSIwLjcyOCIgLz4NCgkJCQ0KCQkJCTxyYWRpYWxHcmFkaWVudCBpZD0iU1ZHSURfNDhfIiBjeD0iNjE0LjAyNTQiIGN5PSItNC4xMDc0IiByPSIwLjg0MSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgwLjk3NDYgMC4yMjM5IDAuMjIzOSAtMC45NzQ2IC01NzIuNDcxOCAtMTE3LjcyMjEpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+DQoJCQkJPHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojRkZGRkZGIiAvPg0KCQkJCTxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzAwMDAwMCIgLz4NCgkJCTwvcmFkaWFsR3JhZGllbnQ+DQoJCQk8Y2lyY2xlIGZpbGw9InVybCgjU1ZHSURfNDhfKSIgY3g9IjI1LjA0MyIgY3k9IjI0LjA0OSIgcj0iMC41ODEiIC8+DQoJCQkNCgkJCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzQ5XyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI1NTkuODk5NCIgeTE9IjMwMi43NDgiIHgyPSI1NTkuODIxNSIgeTI9IjMwMi43ODc4IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDAuNzMyMSAwLjY4MTIgMC42ODEyIC0wLjczMjEgLTU5MS4wNzQ2IC0xMzUuNjYyNCkiPg0KCQkJCTxzdG9wIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzY2NjY2NiIgLz4NCgkJCQk8c3RvcCBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDAwMDAiIC8+DQoJCQk8L2xpbmVhckdyYWRpZW50Pg0KCQkJPHBvbHlnb24gZmlsbD0idXJsKCNTVkdJRF80OV8pIiBwb2ludHM9IjI0LjUyMywyNC4zMTEgMjQuNDc2LDI0LjE3NyAyNS41NiwyMy43OTEgMjUuNjA3LDIzLjkyNCAJCQkiIC8+DQoJCTwvZz4NCgkJPGc+DQoJCQkNCgkJCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzUwXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI2MjcuNTQiIHkxPSItMTEuNDY0OCIgeDI9IjYyNi41MDk1IiB5Mj0iLTEwLjQzNDMiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMC45NzQ2IDAuMjIzOSAwLjIyMzkgLTAuOTc0NiAtNTcyLjQ3MTggLTExNy43MjIxKSI+DQoJCQkJPHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojNTc1NzU2IiAvPg0KCQkJCTxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzAwMDAwMCIgLz4NCgkJCTwvbGluZWFyR3JhZGllbnQ+DQoJCQk8Y2lyY2xlIGZpbGw9InVybCgjU1ZHSURfNTBfKSIgY3g9IjM2LjE3IiBjeT0iMzMuMzMxIiByPSIwLjcyOCIgLz4NCgkJCQ0KCQkJCTxyYWRpYWxHcmFkaWVudCBpZD0iU1ZHSURfNTFfIiBjeD0iNjI2Ljk0NjMiIGN5PSItMTAuNjYxMSIgcj0iMC44NDA4IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDAuOTc0NiAwLjIyMzkgMC4yMjM5IC0wLjk3NDYgLTU3Mi40NzE4IC0xMTcuNzIyMSkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4NCgkJCQk8c3RvcCBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiNGRkZGRkYiIC8+DQoJCQkJPHN0b3Agb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMDAwMDAwIiAvPg0KCQkJPC9yYWRpYWxHcmFkaWVudD4NCgkJCTxjaXJjbGUgZmlsbD0idXJsKCNTVkdJRF81MV8pIiBjeD0iMzYuMTY5IiBjeT0iMzMuMzMxIiByPSIwLjU4MSIgLz4NCgkJCQ0KCQkJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfNTJfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjU3NC4zNjcyIiB5MT0iMzAzLjUzMjIiIHgyPSI1NzQuMjg5OCIgeTI9IjMwMy41NzE2IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDAuNzMyMSAwLjY4MTIgMC42ODEyIC0wLjczMjEgLTU5MS4wNzQ2IC0xMzUuNjYyNCkiPg0KCQkJCTxzdG9wIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzY2NjY2NiIgLz4NCgkJCQk8c3RvcCBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDAwMDAiIC8+DQoJCQk8L2xpbmVhckdyYWRpZW50Pg0KCQkJPHBvbHlnb24gZmlsbD0idXJsKCNTVkdJRF81Ml8pIiBwb2ludHM9IjM1LjY0OCwzMy41OTIgMzUuNiwzMy40NTkgMzYuNjg4LDMzLjA3MiAzNi43MzQsMzMuMjA1IAkJCSIgLz4NCgkJPC9nPg0KCQk8Zz4NCgkJCQ0KCQkJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfNTNfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjYxNy44MTc0IiB5MT0iLTE1LjQ2NDgiIHgyPSI2MTYuNzg2OSIgeTI9Ii0xNC40MzQ0IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDAuOTc0NiAwLjIyMzkgMC4yMjM5IC0wLjk3NDYgLTU3Mi40NzE4IC0xMTcuNzIyMSkiPg0KCQkJCTxzdG9wIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzU3NTc1NiIgLz4NCgkJCQk8c3RvcCBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDAwMDAiIC8+DQoJCQk8L2xpbmVhckdyYWRpZW50Pg0KCQkJPGNpcmNsZSBmaWxsPSJ1cmwoI1NWR0lEXzUzXykiIGN4PSIyNS43OTgiIGN5PSIzNS4wNTMiIHI9IjAuNzMiIC8+DQoJCQkNCgkJCQk8cmFkaWFsR3JhZGllbnQgaWQ9IlNWR0lEXzU0XyIgY3g9IjYxNy4yMjQ2IiBjeT0iLTE0LjY2NSIgcj0iMC44Mzk0IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDAuOTc0NiAwLjIyMzkgMC4yMjM5IC0wLjk3NDYgLTU3Mi40NzE4IC0xMTcuNzIyMSkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4NCgkJCQk8c3RvcCBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiNGRkZGRkYiIC8+DQoJCQkJPHN0b3Agb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMDAwMDAwIiAvPg0KCQkJPC9yYWRpYWxHcmFkaWVudD4NCgkJCTxjaXJjbGUgZmlsbD0idXJsKCNTVkdJRF81NF8pIiBjeD0iMjUuNzk4IiBjeT0iMzUuMDUzIiByPSIwLjU4MSIgLz4NCgkJCQ0KCQkJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfNTVfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjU2Ny45NDczIiB5MT0iMjk1LjIwNTEiIHgyPSI1NjcuODY3OSIgeTI9IjI5NS4yNDU1IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDAuNzMyMSAwLjY4MTIgMC42ODEyIC0wLjczMjEgLTU5MS4wNzQ2IC0xMzUuNjYyNCkiPg0KCQkJCTxzdG9wIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzY2NjY2NiIgLz4NCgkJCQk8c3RvcCBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDAwMDAiIC8+DQoJCQk8L2xpbmVhckdyYWRpZW50Pg0KCQkJPHBvbHlnb24gZmlsbD0idXJsKCNTVkdJRF81NV8pIiBwb2ludHM9IjI1LjI3NiwzNS4zMTQgMjUuMjI5LDM1LjE4IDI2LjMxNSwzNC43OTUgMjYuMzYyLDM0LjkzIAkJCSIgLz4NCgkJPC9nPg0KCTwvZz4NCjwvZz4NCjwvc3ZnPg==</Value>
+      <OriginalSize>
+        <Width>0</Width>
+        <Height>0</Height>
+      </OriginalSize>
+    </Resource>
+  </Resources>
+  <ObjectId>0</ObjectId>
+  <ServerTaskId>-1</ServerTaskId>
+  <ServerTaskItemId>0</ServerTaskItemId>
+  <InObjectInstance>false</InObjectInstance>
+  <Role>SVG</Role>
+  <HasConnections>false</HasConnections>
+  <HasOuterConnections>false</HasOuterConnections>
+</Element>
