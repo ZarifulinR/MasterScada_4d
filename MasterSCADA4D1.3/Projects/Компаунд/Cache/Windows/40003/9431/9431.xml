@@ -694,7 +694,11 @@
       <ContiniuosUpdate>false</ContiniuosUpdate>
     </Parameter>
     <Parameter Name="XType" ShortName="XType" Tag="0" Role="XType" Value="1">
+<<<<<<< HEAD
       <ID TaskNumber="0" ItemID="4294967290" RawItemID="0" TypeHash="5" Path="" STType="HMI.SizeType" UIDType="Inner" />
+=======
+      <ID TaskNumber="0" ItemID="4294967277" RawItemID="0" TypeHash="5" Path="" STType="HMI.SizeType" UIDType="Inner" />
+>>>>>>> master
       <IsValueFromTheme>false</IsValueFromTheme>
       <HasSubTypeName>true</HasSubTypeName>
       <Exclude>false</Exclude>
@@ -702,7 +706,11 @@
       <ContiniuosUpdate>false</ContiniuosUpdate>
     </Parameter>
     <Parameter Name="YType" ShortName="YType" Tag="0" Role="YType" Value="1">
+<<<<<<< HEAD
       <ID TaskNumber="0" ItemID="4294967289" RawItemID="0" TypeHash="5" Path="" STType="HMI.SizeType" UIDType="Inner" />
+=======
+      <ID TaskNumber="0" ItemID="4294967276" RawItemID="0" TypeHash="5" Path="" STType="HMI.SizeType" UIDType="Inner" />
+>>>>>>> master
       <IsValueFromTheme>false</IsValueFromTheme>
       <HasSubTypeName>true</HasSubTypeName>
       <Exclude>false</Exclude>
@@ -710,7 +718,11 @@
       <ContiniuosUpdate>false</ContiniuosUpdate>
     </Parameter>
     <Parameter Name="ProportionType" ShortName="ProportionType" Tag="0" Role="ProportionType" Value="4">
+<<<<<<< HEAD
       <ID TaskNumber="0" ItemID="4294967288" RawItemID="0" TypeHash="5" Path="" STType="HMI.ProportionType" UIDType="Inner" />
+=======
+      <ID TaskNumber="0" ItemID="4294967275" RawItemID="0" TypeHash="5" Path="" STType="HMI.ProportionType" UIDType="Inner" />
+>>>>>>> master
       <IsValueFromTheme>false</IsValueFromTheme>
       <HasSubTypeName>true</HasSubTypeName>
       <Exclude>false</Exclude>
@@ -718,7 +730,11 @@
       <ContiniuosUpdate>false</ContiniuosUpdate>
     </Parameter>
     <Parameter Name="WidthType" ShortName="WidthType" Tag="0" Role="WidthType" Value="1">
+<<<<<<< HEAD
       <ID TaskNumber="0" ItemID="4294967287" RawItemID="0" TypeHash="5" Path="" STType="HMI.SizeType" UIDType="Inner" />
+=======
+      <ID TaskNumber="0" ItemID="4294967274" RawItemID="0" TypeHash="5" Path="" STType="HMI.SizeType" UIDType="Inner" />
+>>>>>>> master
       <IsValueFromTheme>false</IsValueFromTheme>
       <HasSubTypeName>true</HasSubTypeName>
       <Exclude>false</Exclude>
@@ -726,7 +742,11 @@
       <ContiniuosUpdate>false</ContiniuosUpdate>
     </Parameter>
     <Parameter Name="HeightType" ShortName="HeightType" Tag="0" Role="HeightType" Value="1">
+<<<<<<< HEAD
       <ID TaskNumber="0" ItemID="4294967286" RawItemID="0" TypeHash="5" Path="" STType="HMI.SizeType" UIDType="Inner" />
+=======
+      <ID TaskNumber="0" ItemID="4294967273" RawItemID="0" TypeHash="5" Path="" STType="HMI.SizeType" UIDType="Inner" />
+>>>>>>> master
       <IsValueFromTheme>false</IsValueFromTheme>
       <HasSubTypeName>true</HasSubTypeName>
       <Exclude>false</Exclude>
